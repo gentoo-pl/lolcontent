@@ -5,7 +5,8 @@ gem 'rails', '3.2.12'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+# gem 'sqlite3' #recznie usunalem
+gem "mysql2" #dodalem recznie
 
 
 # Gems used only for assets and not required
@@ -52,3 +53,11 @@ gem "devise", ">= 2.2.3"
 gem "cancan", ">= 1.6.8"
 gem "rolify", ">= 3.2.0"
 gem "simple_form", ">= 2.0.4"
+gem "quiet_assets", ">= 1.0.1", :group => :development
+gem "figaro", ">= 0.5.3"
+gem "better_errors", ">= 0.6.0", :group => :development
+gem "binding_of_caller", ">= 0.6.9", :group => :development
+gem "libv8", ">= 3.11.8"
+gem "therubyracer", ">= 0.11.3", :group => :assets, :platform => :ruby, :require => "v8"
+gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
+gem "rmagick" # dodałem recznie
